@@ -6,4 +6,6 @@ jobs:
     steps:
       - name: my-steps
         run: echo "Hello world" 
+      - name: new-step
+        run: echo" hello from other world"
   
